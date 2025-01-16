@@ -36,6 +36,7 @@ nav {
     border-left: rgb(177,156,114) 5px solid; 
     box-shadow: 0 0 10px rgb(177,156,114);
     height: 95vh;
+    width: 20vw;
 }
 
 nav ul {
@@ -50,6 +51,11 @@ nav ul li {
     background-color: #000;
     border: 5px solid rgb(177,156,114);
     border-radius: 1em;
+    transition: 1s ease-in-out;
+}
+nav ul li:hover {
+    background-color: rgb(177,156,114);
+    border: 5px solid #ffdc8a;
 }
 nav ul li a {
     text-decoration: underline #fff;
@@ -70,13 +76,20 @@ main {
     border-right: rgb(177,156,114) 5px solid; 
     box-shadow: 0 0 10px rgb(177,156,114);
     height: 95vh;
+    width: 80vw;
 }
 
-main h1 {
+.header {
     font-size: 3em;
     font-family: 'Noita Pixel';
     text-align: center;
     margin-bottom: 1em;
+    margin-top: 0.5em;
     box-shadow: 0 8px 10px -10px rgb(177,156,114);
     color: #ffdc8a;
+}
+
+p{
+    font-size: 1.5em;
+    margin: 20px;
 }
