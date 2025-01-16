@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Noita Pixel';
+    src: url(../font/NoitaPixel.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background */
+    background-color: #000;
+    background-image: url(../img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* text */
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    padding: 2em;
+    border-left: rgb(177,156,114) 5px solid; 
+    box-shadow: 0 0 10px rgb(177,156,114);
+    height: 95vh;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    margin: 1em;
+    padding: 2em;
+    background-color: #000;
+    border: 5px solid rgb(177,156,114);
+    border-radius: 1em;
+}
+nav ul li a {
+    text-decoration: underline #fff;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'Noita Pixel';
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-left: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-right: rgb(177,156,114) 5px solid; 
+    box-shadow: 0 0 10px rgb(177,156,114);
+    height: 95vh;
+}
+
+main h1 {
+    font-size: 3em;
+    font-family: 'Noita Pixel';
+    text-align: center;
+    margin-bottom: 1em;
+    box-shadow: 0 8px 10px -10px rgb(177,156,114);
+    color: #ffdc8a;
+}
