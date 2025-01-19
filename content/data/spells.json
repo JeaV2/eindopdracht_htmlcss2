@@ -1,0 +1,68 @@
+[
+    {
+        "spellName": "Spark Bolt",
+        "type": "projectile",
+        "description": "Spark Bolt is among the most basic projectile spells. The normal variant is a possible starting spell. The very weak damage is balanced by its very low mana drain and added critical chance, making this a choice spell for early builds and for wands with low cast delay/recharge times.",
+        "ManaDrain": 5,
+        "damage": "3 projectile damage",
+        "uses": "∞"
+    },
+    {
+        "spellName": "Spitter Bolt",
+        "type": "projectile",
+        "description": "Spitter Bolts are a family of spells that create a colorful bolt with medium spread, travelling forward in a straight line for a short to medium distance before fizzling out. The standard Spitter Bolt, a possible starting spell, has the second-best mana drain-to-damage ratio in Noita for a non-explosive unlimited projectile.",
+        "ManaDrain": 5,
+        "damage": "7.5 projectile damage",
+        "uses": "∞"
+    },
+    {
+        "spellName": "Energy Sphere",
+        "type": "projectile",
+        "description": "Energy Sphere is an early game Projectile spell often found within the Mines. The normal variant is a possible starting spell. The spherical blue projectiles it creates are long-lived and follow an arcing trajectory, bouncing up to 5 times. Upon their final impact they explode with a weak digging effect, but deal no explosion damage to you or enemies.",
+        "ManaDrain": 20,
+        "damage": "10, 5 projectile damage, 5 explosion damage",
+        "uses": "∞"
+    },
+    {
+        "spellName": "Bouncing Burst",
+        "type": "projectile",
+        "description": "Bouncing Burst is a projectile spell which fires a fast projectile which bounces off surfaces many times before stopping, decelerating slightly with each bounce. It will also stop whenever it hits an enemy, or if it loses too much speed. It is a possible starting spell, and otherwise often found in the first few levels.",
+        "ManaDrain": 5,
+        "damage": "3 projectile damage",
+        "uses": "∞"
+    },
+    {
+        "spellName": "Bomb",
+        "type": "projectile",
+        "description": "Bomb is a spell that summons a bomb that drops near you. In the 'New Game' mode, the second starting wand has a chance of containing this spell. The Bomb's explosion removes all material and terrain up to a certain durability in a decent radius. Terrain adjacent to and above the explosion will erode and turn into a powder version of the same material, otherwise keeping their material properties.",
+        "ManaDrain": 25,
+        "damage": "125 explosion damage",
+        "uses": "3"
+    },
+    {
+        "spellName": "Unstable Crystal",
+        "type": "projectile",
+        "description": "Unstable Crystal is a spell that creates a red crystal cluster that acts like a proximity mine, exploding when it is disturbed by an entity, projectile, or even yourself.",
+        "ManaDrain": 20,
+        "damage": "100 explosion damage",
+        "uses": "15"
+    },
+    {
+        "spellName": "Firebolt",
+        "type": "projectile",
+        "description": "Firebolt is a class of projectile spell that casts a ball of fire which explodes upon hitting a creature or material. When a firebolt hits the ground at some angles, they will bounce instead of exploding, until they either hit terrain head-on or run out of motion before exploding. For usage techniques they can be considered similar to a type of grenade. In New Game mode, there is a 10% chance for the second starter wand to contain Firebolt.",
+        "ManaDrain": 50,
+        "damage": "92.5, 32.5 projectile damage, 12.5 fire damage 47.5 explosion damage",
+        "uses": "25"
+    },
+    {
+        "spellName": "TNT",
+        "type": "projectile",
+        "description": "TNT, also known as Dynamite, is a projectile spell that flings forth a spinning stick of dynamite at high speed, exploding after a set time. This spell may be included in the second starting wand in a normal New Game.",
+        "ManaDrain": 50,
+        "damage": "62.5 explosion damage",
+        "uses": "16"
+
+
+    }
+]

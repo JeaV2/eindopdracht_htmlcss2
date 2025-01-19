@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noita | Spells </title>
+    <link rel="stylesheet" href="../content/css/main.css">
+    <link rel="stylesheet" href="../content/css/spells.css">
+    <link rel="icon" href="../content/img/icon.ico" type="image/x-icon">
+    <script src="../content/js/spells.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../">About Noita</a></li>
+            <li><a href="../buy/">Buy the game</a></li>
+            <li><a href="../spells/">Spells </a></li>
+            <li><a href="../videos_streams/">Video's and steams </a></li>
+            <li><a href="../contact/">Contact the developers</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="header">
+            Starting spells
+        </div>
+        <div>
+            These are the starting spells you can get when you start a new game in Noita. <br>
+            every game you start you get 2 wands, one 2 with normal spells and one with an explosive spell.
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Spell</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                        <th onclick="sortColumn('ManaDrain')">Mana drain <span id="arrow">-</span></th>
+                        <th>Damage</th>
+                        <th>Uses</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,25 @@
+main div ul{
+    margin-left: 80px;
+    list-style-type: "➤ ";
+}
+main div ul li a{
+    color: #ffdc8a;
+    text-decoration: underline;
+    transition: ease-in-out 0.5s;
+}
+main div ul li a:hover{
+    color: rgb(177,156,114);
+    text-decoration: underline;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    border: #ffdc8a 5px solid;
+    border-radius: 1em;
+    box-shadow: 0 0 10px #ffdc8a;
+}
